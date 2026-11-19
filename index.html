@@ -60,10 +60,12 @@
     <a id="launch-link" class="btn" href="https://kakutei-mobile-wrhkedq9ttn5xzfwvfubm3.streamlit.app/">アプリを開く</a>
   </div>
 
-  <script>
-    const TARGET_URL = "https://kakutei-mobile-wrhkedq9ttn5xzfwvfubm3.streamlit.app/";
-    document.getElementById("launch-link").href = TARGET_URL;
+ <script>
+  const TARGET_URL = "https://kakutei-mobile-wrhkedq9ttn5xzfwvfubm3.streamlit.app/";
+  document.getElementById("launch-link").href = TARGET_URL;
+  setTimeout(function () {
     window.location.replace(TARGET_URL);
-  </script>
+  }, 1500);
+ </script>
 </body>
 </html>
